@@ -18,8 +18,8 @@ const {
       </div>
       <div>
         <div class="flex items-center gap-2">
-          <span class="font-bold tracking-tight text-white text-base">
-            Vetrine<span class="text-amber-400">Digitali</span>
+          <span class="font-serif italic tracking-wide text-stone-100 text-lg">
+            Vetrine Digitali
           </span>
           <span class="text-3xs font-mono px-2 py-0.5 rounded-full bg-white/5 border border-white/10 text-slate-300">
             Studio v1.0
