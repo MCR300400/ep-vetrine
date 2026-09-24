@@ -11,7 +11,7 @@ const mobileView = ref<'editor' | 'preview'>('preview')
 </script>
 
 <template>
-  <div class="h-screen w-screen flex flex-col bg-[#0B0C0E] text-slate-100 overflow-hidden font-sans">
+  <div class="h-screen w-screen flex flex-col bg-[#121316] text-slate-100 overflow-hidden font-sans">
     
     <!-- Fullscreen Mode: Clean display only -->
     <template v-if="isFullScreen">
@@ -26,7 +26,7 @@ const mobileView = ref<'editor' | 'preview'>('preview')
       <Navbar />
 
       <!-- Mobile View Switcher (< lg screens) -->
-      <div class="lg:hidden no-print flex items-center justify-center p-2 bg-[#121318] border-b border-white/10 gap-2 shrink-0">
+      <div class="lg:hidden no-print flex items-center justify-center p-2 bg-[#191a20] border-b border-white/10 gap-2 shrink-0">
         <button
           type="button"
           @click="mobileView = 'editor'"

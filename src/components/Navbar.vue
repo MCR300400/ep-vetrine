@@ -10,7 +10,7 @@ const {
 </script>
 
 <template>
-  <header class="no-print h-16 border-b border-white/10 bg-[#0E0F14] px-4 sm:px-6 flex items-center justify-between z-30 shrink-0 select-none">
+  <header class="no-print h-16 border-b border-white/10 bg-[#121316] px-4 sm:px-6 flex items-center justify-between z-30 shrink-0 select-none">
     <!-- Brand Title -->
     <div class="flex items-center gap-3">
       <div class="w-9 h-9 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 shadow-xs">

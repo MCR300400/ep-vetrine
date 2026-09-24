@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply bg-[#0C0D10] text-slate-100;
+    @apply bg-[#121316] text-zinc-100;
     text-rendering: optimizeSpeed;
     overflow-x: clip;
     -webkit-overflow-scrolling: touch;
