@@ -3,8 +3,20 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-[#0C0D10] text-slate-100;
+    text-rendering: optimizeSpeed;
+    overflow-x: clip;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  button, a {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
   }
 }
 
